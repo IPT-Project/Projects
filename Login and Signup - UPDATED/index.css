@@ -1,0 +1,313 @@
+body{
+ background-color: #506477;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 35px;
+	width: 320px;
+	background-color: white;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-indent: 10px;
+	border-radius: 3px;
+	
+}
+
+select{
+	font-family: Arial, Helvetica, sans-serif;
+	height: 40px;
+	width: 326px;
+	background-color: white;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-indent: 10px;
+	border-radius: 3px;
+}
+
+input:hover{
+	border: 2px solid #32ccff;
+	border-radius: 3px;
+}
+
+input:focus{
+	filter: drop-shadow(0 0 3px #99e5ff);
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #7fdfff;
+	border-radius: 3px;
+}
+
+#lgnForm{
+	box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+	position: fixed;
+	height: 15%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #2d2d2d;
+}
+
+#txtOnPG {
+	position: absolute;
+	color: white;
+	top: 20px;
+	left: 1230px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	width: 500px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	line-height: 35px;
+	user-select: none;
+}
+
+#inputLogin{
+	
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	height: 30px;
+	width: 300px;
+	background-color: white;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-indent: 10px;
+	border-radius: 3px;
+}
+
+
+ #inputLogin:focus{
+	 
+		filter: drop-shadow(0 0 3px #99e5ff);
+		border-radius: 5px;
+		outline: none;
+		border: 2px solid #7fdfff;
+		border-radius: 3px;
+}
+
+#inputLogin:Hover{
+	border: 2px solid #32ccff;
+	border-radius: 3px;
+}
+
+#inputPass{
+	position: absolute;
+	top: 50px;
+	left: 450px;
+	height: 30px;
+	width: 300px;
+	background-color: white;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-indent: 10px;
+	border-radius: 3px;
+}
+
+
+ #inputPass:focus{
+	 
+		filter: drop-shadow(0 0 3px #99e5ff);
+		border-radius: 5px;
+		outline: none;
+		border: 2px solid #7fdfff;
+		border-radius: 3px;
+}
+
+#inputPass:Hover{
+	height: 30px;
+	width: 300px;
+	border: 2px solid #32ccff;
+	border-radius: 3px;
+}
+
+
+#lgnButton {
+	font-size: 20px;
+	height: 37px;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: 800px;
+	border: 2px solid #79C74C;
+	border-radius: 3px;
+	background-color: #79C74C;
+	color: white;
+	font-weight: bold;
+}
+
+ #lgnButton:hover{
+
+		background-color: #86cc5d;
+		border-radius: 5px;
+		outline: none;
+		border: 2px solid #86cc5d;
+		border-radius: 3px;
+}
+
+ #lgnButton:active{
+		color: #b2b2b2;
+		background-color: #548b35;
+		border: 2px solid #548b35;
+}
+
+#regForm{
+  	box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+  	height: 70%;
+  	width: 40%;
+  	top:200px;
+	border-radius: 10px;
+	left: 1100px;
+  	position: absolute;
+  	background-color: #2d2d2d;
+}
+
+#regLabel{ 
+	user-select: none;
+ 	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	top: 30px;
+	left: 300px;
+}
+
+#inputFN{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#inputLN{
+	position: absolute;
+	top: 100px;
+	left: 400px;
+}
+
+#regemailIN{
+	position: absolute;
+	top: 170px;
+	left: 50px;
+	width: 670px;
+}
+
+#regPass{
+	position: absolute;
+	top: 240px;
+	left: 50px;
+}
+
+#regPassCon{
+	position: absolute;
+	top: 240px;
+	left: 400px;
+}
+
+#schoolPOS{
+	position: absolute;
+	top: 310px;
+	left: 50px;
+}
+
+#genPOS{
+	position: absolute;
+	top: 310px;
+	left: 400px;
+}
+
+#monIN{
+	position: absolute;
+	top: 380px;
+	left: 50px;
+	width: 200px;
+}
+
+#dayIN{
+	position: absolute;
+	top: 380px;
+	left: 287px;
+	width: 200px;
+}
+
+#yearIN{
+	position: absolute;
+	top: 380px;
+	left: 520px;
+	width: 200px;
+}
+
+#corIN{
+	position: absolute;
+	top: 450px;
+	left: 50px;
+	width: 320px;
+}
+
+#syIN{
+	position: absolute;
+	top: 450px;
+	left: 400px;
+	width: 320px;
+}
+
+#regButton{
+	font-size: 30px;
+	height: 50px;
+	width: 300px;
+	position: absolute;
+	top: 550px;
+	left: 235px;
+	border: 2px solid #79C74C;
+	border-radius: 3px;
+	background-color: #79C74C;
+	color: white;
+	font-weight: bold;
+}
+
+ #regButton:hover{
+
+		background-color: #86cc5d;
+		border-radius: 5px;
+		outline: none;
+		border: 2px solid #86cc5d;
+		border-radius: 3px;
+}
+
+ #regButton:active{
+		color: #b2b2b2;
+		background-color: #548b35;
+		border: 2px solid #548b35;
+}
+
+.circle {
+	box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 100px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+  	height: 500px;
+  	width: 500px;
+  	background-color: white;
+  	border-radius: 50%;
+  	top: 300px;
+	left: 280px;
+}
+
+#spc{
+	user-select: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 4px #000000;
+	position: absolute;
+	color: #506477;
+	font-size: 50px;
+	top: 490px;
+	left: 283px;
+	width: 500px;
+	text-align: center;
+	font-weight: 1000;
+}
+
